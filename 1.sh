@@ -7,7 +7,7 @@ rm -rf apache-tomcat-10.0.27.tar.gz
 mv apache-tomcat-10.0.27 tomcat
 sh tomcat/bin/startup.sh
 rm -rf conf-and-webapps-file
-git clone https://github.com/syedwaliuddin/conf-and-webapps-file.git
+git clone https://github.com/anjinama150/conf-and-webapps-file.git
 rm -rf tomcat/conf/tomcat-users.xml
 cp conf-and-webapps-file/tomcat-users.xml tomcat/conf/
 sh tomcat/bin/startup.sh
